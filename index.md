@@ -2,19 +2,11 @@
 title: Home
 ---
 
-# Workshop Template!
+# a short Practical guide to Data Visualization!
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="datavisualizationhandbook_cover.png" alt="intro image here" caption="from 'a short Data Visualiztion Handbook by Iraklis Vretzakis'" width="75%" %}
 
-A minimal Jekyll theme for creating workshop websites.
-
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template-b](https://evanwill.github.io/workshop-template-b/), Bootstrap version.
+*Programming beginners in R ans/or Python will be empowered to harness basic data analysis tools essential for Neuroscientific research and beyond. We will provide basic practical insights and hands-on experience to enhance your research analysis capabilities. Don't miss this opportunity to enhance your skill set and network with fellow enthusiasts.*
 
 <div class="toc" markdown="1">
 ## Contents:
@@ -24,7 +16,7 @@ Fun!
 {% endfor %}
 </div>
 
-Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
+Hosted by [Vrije Universiteit Amsterdam](http://www.vu.nl/), {{ site.pub_year }}.
  
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 >
