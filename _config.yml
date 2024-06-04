@@ -8,10 +8,10 @@
 
 # Site settings
 # title appears in the header
-title: workshop-template
+title: A practical guide to data visualization
 # description and keywords for meta tags
-description: "Create an OER workshop website quick and easy!"
-keywords: "workshops, OER, Open Education, websites, gh-pages, jekyll"
+description: "This support the document 'a short Data Visualization Handbook by Iraklis Vretzakis'"
+keywords: "workshops, visualization, Open Education, websites, gh-pages, jekyll"
 
 # author settings for cc-by, appears in the footer
 author: meron vermaas
@@ -19,7 +19,7 @@ pub_year: 2024
 github_username: meronvermaas
 
 # add the full url for the github repository
-repo: "https://github.com/meronvermaas/workshop-template"
+repo: "https://github.com/meronvermaas/data-visualization"
 
 # site urls
 # Optional if using GitHub Pages! If building manually, these must be set correctly.
