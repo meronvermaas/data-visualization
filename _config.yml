@@ -16,10 +16,10 @@ keywords: "workshops, visualization, Open Education, websites, gh-pages, jekyll"
 # author settings for cc-by, appears in the footer
 author: meron vermaas
 pub_year: 2024
-github_username: meronvermaas
+github_username: ubvu
 
 # add the full url for the github repository
-repo: "https://github.com/meronvermaas/data-visualization"
+repo: "https://github.com/ubvu/data-visualization"
 
 # site urls
 # Optional if using GitHub Pages! If building manually, these must be set correctly.
