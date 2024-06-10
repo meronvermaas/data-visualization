@@ -11,5 +11,5 @@ The [Filter and Fire Dataset](https://www.kaggle.com/datasets/selfishgene/fiter-
 
 Here, the authors propose a 'Filter and Fire Neuron Model' (F&F), which, in contrast to the long-stablished 'Integrate and Fire Neuron Model' (I&F), takes into account the spatio-temporal information obtained from multiple synaptic contacts. To compare the efficacy of the different models, they tested the 'memory capacity' of the neurons by training the neurons in each model type to emit precisely-timed output spikes for a random input pattern, in this case, handwritten digits:
 
-{% include figure.html img="FF_Fig3.png" alt="intro image here" caption="from Fig.3 [Beniaguev, et al. bioRxiv 2024](https://doi.org/10.1101/2022.01.28.478132)" width="75%" %}
+{% include figure.html img="FF_Fig3A.png" alt="Filter&Fire paper Fig.3A" caption="from Fig.3A [Beniaguev, et al. bioRxiv 2024](https://doi.org/10.1101/2022.01.28.478132)" width="75%" %}
 
