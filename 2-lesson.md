@@ -32,12 +32,46 @@ Now we can go on an visualize our data!
 
 Follow one R or Python tutorials to generate the following plots:
 
-### Barplot
+## Barplot
 
-We can observe the Baseline Accuracy displayed by neurons for the detection of each handwritten digit by making a Bar plot.
+We can observe the Baseline Accuracy displayed by neurons for the detection of each handwritten digit by making a Barplot.
 
-Barplots are usefull for representing relationships between a numeric (in this case, the Baseline accuracy values) and a categorical variable (in this case, the handwritten digit pattern)
+Barplots are usefull for representing relationships between a numeric variable (in this case, the Baseline accuracy values) and a categorical variable (in this case, the handwritten digit pattern).
 
-As mentioned on section "Color Theory in Graphs" of the Data Visualization handbook, color is an important element to aid with visualizing our data. Here, we have selected to use a different color for each one of the digits so we can easily visualize the differences between each one of them. 
+As mentioned on section "Color Theory in Graphs" of the Data Visualization handbook, color is an important element to aid with visualizing our data. Here, we have selected to use a different color for each one of the digits so we can easily visualize the differences between them. 
 
 {% include figure.html img="Barplot-R.png" alt="Barplot" caption="" width="75%" %}
+
+## Boxplot
+
+Now, we can generate a Boxplot to visualize the distribution of the Accuracy values obtained after training with the F&F model. 
+
+Boxplots allow us to observe the distribution of numerical data according to their descriptive statistics. It displays the minimal value, the first quartile, the median, the third quartile and the maximum value. It can also help us see if our data follows a normal distribution or if it is positively or negatively skewed, depending on the location of the median inside the box. Moreover, when a value is more extream than the expected variation, it displays it as outlier points.
+
+* By looking at the following graph, which digit's F&F model Accuracy seems to follow a normal distribution? 
+* Which one clearly shows outlier values? 
+
+{% include figure.html img="Boxplot-R.png" alt="Boxplot" caption="" width="75%" %}
+
+## Violin plot
+
+Another graph that allows us to observe the distribution of the F&F accuracy values is the Violin plot.
+
+Violin plots use density curves to plot the distribution of numerical data. Here, the width of each curve represents the density of data points on each region. It can be combined with other plot types such as scatterplots or boxplots to provide extra information.
+
+{% include figure.html img="Violinplot-R.png" alt="Violinplot" caption="" width="75%" %}
+
+## Histogram
+
+A Histogram is yet another plot type that is used to visualize the distribution of continuous numerical values as bars. Usually, each bar represents the frequency of data points that have that particular value. 
+
+Histograms are useful for visualizing the distriburion of a single variable. In this case, we have selected the digit 9 to observe the distribution of it's F&F accuracy values. 
+
+{% include figure.html img="Histogram-R.png" alt="Violinplot" caption="" width="75%" %}
+
+In this case, plotting the F&F accuracy values of a particular digit might not be very informative. This is a great example of how important it is to choose the plot that best help us to visualize and interpret our data. 
+
+Whenever in doubt, remember to ask yourself the following questions (as extracted from the Data Visualization Hanbook Checklist):
+- Does the graphical form correspond appropriately to dataset-specific parameters such as number and nature of the variables?
+- Does the graphical form illustrate the desired relationship among the data?
+
