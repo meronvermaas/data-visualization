@@ -69,9 +69,9 @@ Histograms are useful for visualizing the distriburion of a single variable. In 
 
 {% include figure.html img="Histogram-R.png" alt="Violinplot" caption="" width="75%" %}
 
-In this case, plotting the F&F accuracy values of a particular digit might not be very informative. This is a great example of how important it is to choose the plot that best help us to visualize and interpret our data. 
+In this case, plotting the F&F accuracy values of a particular digit might not be very informative. This is a great example of how important it is to choose the plot that best help  visualize and interpret our data. 
 
-Whenever in doubt, remember to ask yourself the following questions (as extracted from the Data Visualization Hanbook Checklist):
+Whenever in doubt, remember to ask yourself the following questions (as extracted from the Data Visualization Handbook Checklist):
 - Does the graphical form correspond appropriately to dataset-specific parameters such as number and nature of the variables?
 - Does the graphical form illustrate the desired relationship among the data?
 
