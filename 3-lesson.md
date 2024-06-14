@@ -38,3 +38,14 @@ Each data point represents a value at a given position on the x-axis while the l
 Line plots are commonly used for trend analysis; showing how data changes over time, comparing multiple datasets or monitoring changes etc. Here transcriptomic comparisons are shown over different samples and whether or not any variation is observed in a sample.
 
 {% include figure.html img="Lineplot-Py.jpeg" alt="Line plot of brain region-specific expression Data" caption="" width="75%" %}
+
+Refer to “Salience” in Data Visualization handbook. Do you think such line plot is an ideal visualization of our data? What changes would you suggest to improve the Silence of this graph?
+
+## Scatter plot
+
+A scatter plot displays values for typically two variables for a set of data. The values are represented by dots, where each dot's position on the horizontal (x) and vertical (y) axis represents the values of the two variables. Scatterplots are particularly useful for identifying relationships, patterns, and correlations between variables providing a clear and intuitive way to visualize and interpret relationships between the two variables. 
+
+Patterns such as clusters, trends, and outliers can be identified in these plots. Correlation analysis, understanding distributions, identifying outliers and comparing different groups are some common uses of visualizing data on a scatter plots
+
+{% include figure.html img="Scatterplot-Py.jpeg" alt="Scatter ploy of brain region-specific expression Data" caption="" width="75%" %}
+
