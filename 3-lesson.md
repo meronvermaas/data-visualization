@@ -30,7 +30,7 @@ A heatmap is a data visualization tool that uses color to represent values in a 
 
 ## Line plot
 
-A line plot, also known as a line graph displays information as a series of data points called connected by straight line segments. It is commonly used to show trends to compare different sets of data. 
+A line plot, also known as a line graph displays information as a series of data points connected by straight line segments. It is commonly used to show trends to compare different sets of data. 
 * X-axis (Horizontal Axis): Typically represents the independent variable (e.g., time, categories).
 * Y-axis (Vertical Axis): Represents the dependent variable (e.g., measurements, values).
 Each data point represents a value at a given position on the x-axis while the lines connect consecutive data points, making it easy to observe trends, patterns, or changes in the data.
