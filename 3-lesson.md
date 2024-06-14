@@ -26,6 +26,15 @@ Now, let's visualize the data!
 
 A heatmap is a data visualization tool that uses color to represent values in a matrix. It is used to display the magnitude of values in a two-dimensional space, making it easier to understand complex data. Here it provides a clear and immediate visual summary  of the levels of genes expressed, in this case through a z-score for every gene shown in the respective brain region. The color bar on the side gives a key to analyze the level of gene expression.
 
-{% include figure.html img="Heatmap-Py.jpeg" alt="Brain region-specific expression Data" caption="" width="75%" %}
+{% include figure.html img="Heatmap-Py.jpeg" alt="Heatmap of brain region-specific expression Data" caption="" width="75%" %}
 
+## Line plot
 
+A line plot, also known as a line graph displays information as a series of data points called connected by straight line segments. It is commonly used to show trends to compare different sets of data. 
+* X-axis (Horizontal Axis): Typically represents the independent variable (e.g., time, categories).
+* Y-axis (Vertical Axis): Represents the dependent variable (e.g., measurements, values).
+Each data point represents a value at a given position on the x-axis while the lines connect consecutive data points, making it easy to observe trends, patterns, or changes in the data.
+
+Line plots are commonly used for trend analysis; showing how data changes over time, comparing multiple datasets or monitoring changes etc. Here transcriptomic comparisons are shown over different samples and whether or not any variation is observed in a sample.
+
+{% include figure.html img="Lineplot-Py.jpeg" alt="Line plot of brain region-specific expression Data" caption="" width="75%" %}
