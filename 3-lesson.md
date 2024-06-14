@@ -22,8 +22,10 @@ The Gene Expression dataset represents the region specific expressed genes at tr
 
 Now, let's visualize the data!
 
-##Heatmap
+## Heatmap
 
 A heatmap is a data visualization tool that uses color to represent values in a matrix. It is used to display the magnitude of values in a two-dimensional space, making it easier to understand complex data. Here it provides a clear and immediate visual summary  of the levels of genes expressed, in this case through a z-score for every gene shown in the respective brain region. The color bar on the side gives a key to analyze the level of gene expression.
+
+{% include figure.html img="Heatmap-Py.jpeg" alt="Brain region-specific expression Data" caption="" width="75%" %}
 
 
