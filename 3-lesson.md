@@ -39,7 +39,9 @@ Line plots are commonly used for trend analysis; showing how data changes over t
 
 {% include figure.html img="Lineplot-Py.jpeg" alt="Line plot of brain region-specific expression Data" caption="" width="75%" %}
 
-Refer to “Salience” in Data Visualization handbook. Do you think such line plot is an ideal visualization of our data? What changes would you suggest to improve the Silence of this graph?
+Refer to “Salience” in Data Visualization handbook. 
+- Do you think such line plot is an ideal visualization of our data?
+- What changes would you suggest to improve the Silence of this graph?
 
 ## Scatter plot
 
