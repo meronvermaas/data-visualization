@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# a short Practical guide to Data Visualization!
+# A short Practical guide to Data Visualization!
 
 {% include figure.html img="datavisualizationhandbook_cover.png" alt="intro image here" caption="from 'a short Data Visualiztion Handbook by Iraklis Vretzakis'" width="75%" %}
 
