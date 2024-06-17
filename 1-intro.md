@@ -13,5 +13,3 @@ For this tutorial, we will be using two different datasets obtained from Neurosc
 
 Let's code!
 
-## Why?
-
