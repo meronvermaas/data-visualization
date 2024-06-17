@@ -59,17 +59,17 @@ Boxplots allow us to observe the distribution of numerical data according to the
 
 Another graph that allows us to observe the distribution of the F&F accuracy values is the Violin plot.
 
-{% include figure.html img="Violinplot-R.png" alt="Violinplot" caption="" width="75%" %}
-
 Violin plots use density curves to plot the distribution of numerical data. Here, the width of each curve represents the density of data points on each region. It can be combined with other plot types such as scatterplots or boxplots to provide extra information.
+
+{% include figure.html img="Violinplot-R.png" alt="Violinplot" caption="" width="75%" %}
 
 ## Histogram
 
 A Histogram is yet another plot type that is used to visualize the distribution of continuous numerical values as bars. Usually, each bar represents the frequency of data points that have that particular value. 
 
-{% include figure.html img="Histogram-R.png" alt="Violinplot" caption="" width="75%" %}
+Histograms are useful for visualizing the distriburion of a single variable. In this case, we have selected the digit 9 to observe the distribution of it's F&F accuracy values.
 
-Histograms are useful for visualizing the distriburion of a single variable. In this case, we have selected the digit 9 to observe the distribution of it's F&F accuracy values. 
+{% include figure.html img="Histogram-R.png" alt="Violinplot" caption="" width="75%" %}
 
 In this case, plotting the F&F accuracy values of a particular digit might not be very informative. This is a great example of how important it is to choose the plot that best help  visualize and interpret our data. 
 
