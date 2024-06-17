@@ -28,6 +28,14 @@ A heatmap is a data visualization tool that uses color to represent values in a 
 
 {% include figure.html img="Heatmap-Py.jpeg" alt="Heatmap of brain region-specific expression Data" caption="" width="75%" %}
 
+## Scatter plot
+
+A scatter plot displays values for typically two variables for a set of data. The values are represented by dots, where each dot's position on the horizontal (x) and vertical (y) axis represents the values of the two variables. Scatterplots are particularly useful for identifying relationships, patterns, and correlations between variables providing a clear and intuitive way to visualize and interpret relationships between the two variables. 
+
+Patterns such as clusters, trends, and outliers can be identified in these plots. Correlation analysis, understanding distributions, identifying outliers and comparing different groups are some common uses of visualizing data on a scatter plots
+
+{% include figure.html img="Scatterplot-Py.jpeg" alt="Scatter ploy of brain region-specific expression Data" caption="" width="75%" %}
+
 ## Line plot
 
 A line plot, also known as a line graph displays information as a series of data points connected by straight line segments. It is commonly used to show trends to compare different sets of data. 
@@ -42,12 +50,3 @@ Line plots are commonly used for trend analysis; showing how data changes over t
 Refer to “Salience” in Data Visualization handbook. 
 - Do you think such line plot is an ideal visualization of our data?
 - What changes would you suggest to improve the Silence of this graph?
-
-## Scatter plot
-
-A scatter plot displays values for typically two variables for a set of data. The values are represented by dots, where each dot's position on the horizontal (x) and vertical (y) axis represents the values of the two variables. Scatterplots are particularly useful for identifying relationships, patterns, and correlations between variables providing a clear and intuitive way to visualize and interpret relationships between the two variables. 
-
-Patterns such as clusters, trends, and outliers can be identified in these plots. Correlation analysis, understanding distributions, identifying outliers and comparing different groups are some common uses of visualizing data on a scatter plots
-
-{% include figure.html img="Scatterplot-Py.jpeg" alt="Scatter ploy of brain region-specific expression Data" caption="" width="75%" %}
-
