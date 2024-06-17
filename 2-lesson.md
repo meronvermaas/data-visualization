@@ -3,7 +3,9 @@ title: Dataset 1
 nav: true
 ---
 
-# Filter and Fire Dataset
+# Graphical Forms of Data Charts: Dataset 1
+
+## Filter and Fire 
 
 Cortical neurons have long been observed to form multiple synaptic contacts with it's post-synaptic target. Yet, the functional advantages that arise with this increased number of contacts is still to be understood. 
 
@@ -30,7 +32,7 @@ The [Filter and Fire Dataset](https://www.kaggle.com/datasets/selfishgene/fiter-
 
 Now we can go on an visualize our data!
 
-Follow one R or Python tutorials to generate the following plots:
+**Open one of the binders containing the R or Python Notebooks to generate the following plots:**
 
 ## Barplot
 
@@ -46,28 +48,28 @@ As mentioned on section "Color Theory in Graphs" of the Data Visualization handb
 
 Now, we can generate a Boxplot to visualize the distribution of the Accuracy values obtained after training with the F&F model. 
 
+{% include figure.html img="Boxplot-R.png" alt="Boxplot" caption="" width="75%" %}
+
 Boxplots allow us to observe the distribution of numerical data according to their descriptive statistics. It displays the minimal value, the first quartile, the median, the third quartile and the maximum value. It can also help us see if our data follows a normal distribution or if it is positively or negatively skewed, depending on the location of the median inside the box. Moreover, when a value is more extream than the expected variation, it displays it as outlier points.
 
 * By looking at the following graph, which digit's F&F model Accuracy seems to follow a normal distribution? 
 * Which one clearly shows outlier values? 
 
-{% include figure.html img="Boxplot-R.png" alt="Boxplot" caption="" width="75%" %}
-
 ## Violin plot
 
 Another graph that allows us to observe the distribution of the F&F accuracy values is the Violin plot.
 
-Violin plots use density curves to plot the distribution of numerical data. Here, the width of each curve represents the density of data points on each region. It can be combined with other plot types such as scatterplots or boxplots to provide extra information.
-
 {% include figure.html img="Violinplot-R.png" alt="Violinplot" caption="" width="75%" %}
+
+Violin plots use density curves to plot the distribution of numerical data. Here, the width of each curve represents the density of data points on each region. It can be combined with other plot types such as scatterplots or boxplots to provide extra information.
 
 ## Histogram
 
 A Histogram is yet another plot type that is used to visualize the distribution of continuous numerical values as bars. Usually, each bar represents the frequency of data points that have that particular value. 
 
-Histograms are useful for visualizing the distriburion of a single variable. In this case, we have selected the digit 9 to observe the distribution of it's F&F accuracy values. 
-
 {% include figure.html img="Histogram-R.png" alt="Violinplot" caption="" width="75%" %}
+
+Histograms are useful for visualizing the distriburion of a single variable. In this case, we have selected the digit 9 to observe the distribution of it's F&F accuracy values. 
 
 In this case, plotting the F&F accuracy values of a particular digit might not be very informative. This is a great example of how important it is to choose the plot that best help  visualize and interpret our data. 
 
