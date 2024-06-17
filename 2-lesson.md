@@ -48,12 +48,12 @@ As mentioned on section "Color Theory in Graphs" of the Data Visualization handb
 
 Now, we can generate a Boxplot to visualize the distribution of the Accuracy values obtained after training with the F&F model. 
 
-{% include figure.html img="Boxplot-R.png" alt="Boxplot" caption="" width="75%" %}
-
 Boxplots allow us to observe the distribution of numerical data according to their descriptive statistics. It displays the minimal value, the first quartile, the median, the third quartile and the maximum value. It can also help us see if our data follows a normal distribution or if it is positively or negatively skewed, depending on the location of the median inside the box. Moreover, when a value is more extream than the expected variation, it displays it as outlier points.
 
 * By looking at the following graph, which digit's F&F model Accuracy seems to follow a normal distribution? 
 * Which one clearly shows outlier values? 
+
+{% include figure.html img="Boxplot-R.png" alt="Boxplot" caption="" width="75%" %}
 
 ## Violin plot
 
